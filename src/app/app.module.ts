@@ -15,10 +15,12 @@ import { ServerpwdComponent } from './serverpwd/serverpwd.component';
     ServerComponent,
     ServersComponent,
     ServerpwdComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
